@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="vertica-1404210735508--396028367" provider="generic" driver="vertica" name="Vertica - ltverticadb" create-date="1404210807936" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="192.168.2.32" port="5433" server="" database="ltverticadb" url="jdbc:vertica://192.168.2.32:5433/ltverticadb" user="test_u" password="BwEVNH5TZFIWBVYsM3ak" type="dev">
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="host" value=""/>
+				<property name="keyPath" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+		</connection>
+	</data-source>
+</data-sources>
